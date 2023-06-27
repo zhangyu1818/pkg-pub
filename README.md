@@ -1,7 +1,6 @@
 # pkg-pub
 
-> TL;DR
-> Publish a temporary version to occupy the package
+Publish a temporary version to occupy the package
 
 ## Install
 
