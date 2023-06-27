@@ -1,0 +1,26 @@
+{
+  "name": "pkg-pub",
+  "version": "0.0.0",
+  "description": "publish a package name you want.",
+  "main": "./index.cjs",
+  "keywords": [
+    "publish package",
+    "package name"
+  ],
+  "bin": {
+    "pkgp": "./index.cjs"
+  },
+  "files": [
+    "index.cjs"
+  ],
+  "author": "zhangyu1818",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "prompts": "^2.4.2",
+    "semver": "^7.5.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
